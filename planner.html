@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Planner Features</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tasks">Tasks</a></li>
+                <li><a href="#notes">Notes</a></li>
+                <li><a href="#logout">Logout</a></li>
+            </ul>
+        </nav>
+        <h1>Study Planner Features</h1>
+    </header>
+    <main>
+        <section id="tasks">
+            <h2>Task Calendar</h2>
+            <div id="calendar"></div>
+        </section>
+        <section id="notes">
+            <h2>Make a Note</h2>
+            <form id="noteForm">
+                <label for="note">Note:</label>
+                <textarea id="note" name="note" required></textarea>
+                <button type="submit">Add Note</button>
+            </form>
+            <h2>Saved Notes</h2>
+            <ul id="noteList"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Study Planner. All rights reserved.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

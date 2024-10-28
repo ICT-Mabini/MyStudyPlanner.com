@@ -1,0 +1,51 @@
+/* Existing styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('https://example.com/your-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Other existing styles */
+
+/* Add the new styles here */
+h2 {
+    font-size: 2.5rem; /* Increase the size */
+    font-family: 'Courier New', Courier, monospace; /* Change the font */
+}
+
+mark {
+    background-color: yellow;
+    font-weight: bold; /* Make it bold for extra emphasis */
+}
+
+/* Continue with other existing styles */
+
+header {
+    background: rgba(76, 175, 80, 0.8); /* Semi-transparent background */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Add this to your existing CSS to highlight the dates with tasks */
+.highlight {
+    background-color: yellow !important;
+}
+
+/* Add this to your existing CSS for individual note styling */
+.note-box {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
